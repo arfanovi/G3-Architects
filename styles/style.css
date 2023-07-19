@@ -9,6 +9,29 @@
 }
 
 
+.text-light-gray{
+    color: #727272;
+ 
+}
+
+
+
+
+.Section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+    padding: 50px 240px;
+}
+
+
+
+
+
+
+
+
+
 /* Header Styles */
 header{
     background: rgba(255, 144, 14, 0.10);
@@ -20,12 +43,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.nav-title{
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: #131313;
 }
 
 
@@ -60,9 +77,7 @@ nav li a{
     font-weight: 700;
     color: #131313;
 }
-.banner-description{
-    color: #727272;
-}
+
 
 .btn-primary{
     border-radius: 8px;
@@ -82,36 +97,6 @@ nav li a{
 }
 
 
-/* Responsive styles */
-
-/* Mobile Devices */
-@media  screen and (max-width: 576px){
-
-    header{
-        padding: 20px;
-    }
-    nav{
-        flex-direction: column;
-    }
-    
-}
-
-/* Tablet or Medium Devices  */
-
-@media screen and(min-width:576px) and (max-width:976px) {
-
-    header{
-        padding: 50px;
-    }
-    nav{
-        flex-direction: column;
-    }
-    
-}
-
-
-
-            /* Main Styles  */
 
 main{
     max-width: 1440px;
@@ -158,3 +143,110 @@ main{
 
 
 }
+
+
+
+/* 
+.facts-description{
+ padding: 50px 240px;;
+} */
+
+
+
+
+
+
+
+
+
+/* Facts section */
+
+.facts-card-container{
+    display: flex;
+    padding: 50px 240px;
+    justify-content: space-around;
+
+
+}
+
+
+.facts-card-container .card-title{
+
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 5px;
+
+}
+
+
+.facts-card-container .card-facts{
+
+    font-size: 2.8rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+.facts-card-container .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px 30px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive styles */
+
+/* Mobile Devices */
+@media  screen and (max-width: 576px){
+
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .team-img-container{
+
+        grid-template-columns: 1f;
+    }
+    
+}
+
+/* Tablet or Medium Devices  */
+
+@media screen and(min-width:576px) and (max-width:976px) {
+
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    
+}
+
+
+
+            /* Main Styles  */
